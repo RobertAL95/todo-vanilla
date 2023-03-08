@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 700px;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: #f2f2f2;
+  }
+
+  .input_contanier{
+    display: flex;
+  }
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .lista-tareas {
+    list-style: none;
+  }
+  
+  .lista-tareas li {
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .lista-tareas li span {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .lista-tareas li button {
+    margin-left: auto;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .lista-tareas li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
